@@ -12,5 +12,5 @@ Documentation = "https://github.com/sfysyyds/ComfyUI-Agent-Bridge"
 "Bug Tracker" = "https://github.com/sfysyyds/ComfyUI-Agent-Bridge/issues"
 
 [tool.comfy]
-PublisherId = "sfysyyds"
+PublisherId = "sfys"
 DisplayName = "ComfyUI Agent Bridge"
