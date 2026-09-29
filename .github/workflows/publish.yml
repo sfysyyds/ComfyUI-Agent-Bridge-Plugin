@@ -1,0 +1,11 @@
+name: Publish to Comfy Registry
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Comfy-Org/publish-node-action@1.0.1
+        with:
+          personal_access_token: ${{ secrets.REGISTRY_ACCESS_TOKEN }}
